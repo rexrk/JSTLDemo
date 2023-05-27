@@ -48,10 +48,10 @@
 </c:forEach>
 
 <%--URL, Param, Redirect Tag--%>
-<c:url var="myurl" value="https://www.google.com/search">
-    <c:param name="q" value="RexRK Beats"></c:param>
-</c:url>
+<%--<c:url var="myurl" value="https://www.google.com/search">--%>
+<%--    <c:param name="q" value="RexRK Beats"></c:param>--%>
+<%--</c:url>--%>
 
-<c:redirect url="${myurl}"></c:redirect>
+<%--<c:redirect url="${myurl}"></c:redirect>--%>
 </body>
 </html>`
